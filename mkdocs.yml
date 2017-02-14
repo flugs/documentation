@@ -1,0 +1,33 @@
+site_name: Flugs
+site_url: https://docs.flugs.io
+repo_url: https://github.com/sboehmann/flugs/
+docs_dir: docs
+theme: 'material'
+
+markdown_extensions:
+  - codehilite
+  - admonition
+
+pages:
+- Flugs: index.md
+
+- Getting Started:
+    - Setting Up: start/setting_up.md
+    - Upgrade Guide: start/upgrade.md
+    - Getting Started: start/getting_started.md
+    - Deploy: start/deploy.md
+
+- The Basics:
+    - Server: basics/server.md
+    - Routing: basics/routing.md
+    - Requests: basics/requests.md
+    - Responses: basics/responses.md
+    - Middleware: basics/middleware.md
+    - Controller: basics/controller.md
+
+- Support: support/support.md
+
+- About:
+    - Release Notes: about/release-notes.md
+    - Get Involved: about/get_involved.md
+    - License: about/license.md
